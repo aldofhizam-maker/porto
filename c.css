@@ -1,0 +1,19 @@
+.identitas {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* jarak foto dan teks */
+  background: #f2f2f2;
+  padding: 20px;
+  width: 500px;
+}
+
+.identitas img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* bikin foto bulat */
+  object-fit: cover;
+}
+
+.data h2 {
+  margin: 0;
+}
